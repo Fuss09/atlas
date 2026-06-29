@@ -55,3 +55,64 @@ Version : 1.0
 ---
 
 # 10. Future Architecture
+
+
+                   +----------------+
+                   |      User      |
+                   +--------+-------+
+                            |
+                            |
+                     Investment Thesis
+                            |
+                            ▼
+                  +--------------------+
+                  | Discovery Engine   |
+                  +--------------------+
+                            |
+      Trouve entreprises, ETF, fournisseurs,
+      startups, concurrents, technologies
+                            |
+                            ▼
+                 +----------------------+
+                 | Event Engine         |
+                 +----------------------+
+                            |
+          News
+          SEC
+          FDA
+          GitHub
+          Brevets
+          Recrutements
+          Levées de fonds
+          Insider Trading
+                            |
+                            ▼
+                +-----------------------+
+                | AI Analysis Engine    |
+                +-----------------------+
+                            |
+      Résumé
+      Importance
+      Impact
+      Explication
+      Niveau de confiance
+                            |
+                            ▼
+                 +----------------------+
+                 | Scoring Engine       |
+                 +----------------------+
+                            |
+        Score de conviction
+        Catalyseurs
+        Risques
+        Opportunités
+                            |
+                            ▼
+              +-------------------------+
+              | Recommendation Engine   |
+              +-------------------------+
+                            |
+       Dashboard
+       Alertes
+       Watchlist
+       Recherche
